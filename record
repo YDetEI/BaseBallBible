@@ -1,5 +1,6 @@
 8/23 3
 8/24 4
+8/25 1
 
 
 
@@ -10,8 +11,8 @@
 ・node.js（実行環境）v10.13.0
 ・Firebase
 ・vue.js
-・Bootstrap
 ・Google Charts
+・Bootstrap
 
 ②TypeScript
 
