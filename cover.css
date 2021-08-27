@@ -51,3 +51,11 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+
+.jumbotron-extend {
+  height: 100vh;
+  min-height: 350px;
+  margin-bottom: 60px;
+  background-image: url(".../materials/p1.jpg");
+  background-size: cover;
+}
