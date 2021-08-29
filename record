@@ -5,6 +5,8 @@
 8/27 2
 8/28 4
 8/29 8
+8/30
+8/31
 
 
 
@@ -13,10 +15,11 @@
 ①JavaScript
 ・node.js（実行環境）v10.13.0
 ・Firebase
-・vue.js
 ・Google Charts
-・three.js
 ・Bootstrap
+
+・three.js
+・vue.js
 
 
 ②TypeScript
