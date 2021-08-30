@@ -14,6 +14,7 @@
 
 ①JavaScript
 ・node.js（実行環境）v10.13.0
+・express v4.16.1
 ・Firebase
 ・Google Charts
 ・Bootstrap
