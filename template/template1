@@ -16,14 +16,6 @@
 </html>
 
 
-
-
-
-
-
-
-
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -46,39 +38,8 @@
                 <a class="nav-link active, text-info" href="#">Library</a>
                 <a class="nav-link active, text-info" href="#">Topic</a>
                 <a class="nav-link active, text-info" href="#">Breaking Balls</a>
+                <a class="nav-link active, text-info" href="#">PROSPI-A</a>
             </nav>
             </nav>
         </div>
     </header>
-
-    <!--
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-2 border border-dark">2</div>
-            <div class="col-md-2 border border-dark">2</div>
-            <div class="col-md-2 border border-dark">2</div>
-            <div class="col-md-6 border border-dark">6</div>
-        </div>
-    </div> -->
-
-
-
-    <div class="jumbotron jumbotron-extend">
-        <div class="container-fluid jumbotron-container">
-            <h1 style="color: #05c5c5;">For All of Baseball Lovers.</h1>
-
-
-            <h4 style="color: #05c5c5;">Starhacks is BaseBall Data App. </h4>
-            <h4 style="color: #05c5c5;">There are tremendous numbers of unique data. </h4>
-            <h4 style="color: #05c5c5;">May make your BaseBall life colorful and fruitful!</h4>
-        </div>
-
-
-
-
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-</body>
-
-</html>
