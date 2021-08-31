@@ -6,40 +6,44 @@
     <title>Chart Tools</title>
 </head>
 
-<body>
-    <div id="target"></div>
-    <script src="https://www.gstatic.com/charts/loader.js"></script>
-    <script>
-        ;
-        (function() {
-            'use strict'
+<div>
 
-            function drawChart() {
-                var query = new google.visualization.Query(
-                    'https://docs.google.com/spreadsheets/d/1e8lczjO4RCCIQrEAoDGmylsRLGjZ4MB67IKrPm1oZFc/edit?usp=sharing',
-                )
-                query.send(handleQueryResponse)
-            }
+    <body>
+        <div id="target"></div>
+        <script src="https://www.gstatic.com/charts/loader.js"></script>
+        <script>
+            ;
+            (function() {
+                'use strict'
 
-            function handleQueryResponse(response) {
-                var target = document.getElementById('target')
-                var data
-                var options = {
-                    title: 'My Chart',
-                    width: 500,
-                    height: 300,
+                function drawChart() {
+                    var query = new google.visualization.Query(
+                        'https://docs.google.com/spreadsheets/d/1B9Vpat2uxTdrXYSXLgJZzcM-hDPPDNojsBi-h9y6AsM/edit?usp=sharing',
+                    )
+                    query.send(handleQueryResponse)
                 }
-                var chart = new google.visualization.PieChart(target)
-                data = response.getDataTable()
-                chart.draw(data, options)
-            }
 
-            google.charts.load('current', {
-                packages: ['corechart'],
-            })
-            google.charts.setOnLoadCallback(drawChart)
-        })()
-    </script>
+                function handleQueryResponse(response) {
+                    var target = document.getElementById('target')
+                    var data
+                    var options = {
+                        title: 'My Chart',
+                        width: 500,
+                        height: 300,
+                    }
+                    var chart = new google.visualization.PieChart(target)
+                    data = response.getDataTable()
+                    chart.draw(data, options)
+                }
+
+                google.charts.load('current', {
+                    packages: ['corechart'],
+                })
+                google.charts.setOnLoadCallback(drawChart)
+            })()
+        </script>
+</div>
+
 </body>
 
 </html>
